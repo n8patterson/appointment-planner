@@ -20,7 +20,7 @@ export const ContactForm = ({
       <input
         type='tel'
         value={phone}
-        placeholder='Phone Number'
+        placeholder='Phone Number ###-###-####'
         pattern='[1-9][0-9]{2}-[1-9][0-9]{2}-[0-9]{4}'
         onChange={({ target }) => setPhone(target.value)}
       ></input>
